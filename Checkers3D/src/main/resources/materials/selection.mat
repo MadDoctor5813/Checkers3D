@@ -1,0 +1,4 @@
+DiffuseShading
+selectiontex.png
+float shininess = 1
+vec3 specColor = 0, 0, 0

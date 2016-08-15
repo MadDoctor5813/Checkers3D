@@ -1,0 +1,40 @@
+group 'com.kevin'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+project.ext.lwjglVersion = "3.0.0b"
+
+mainClassName = "com.kevin.Main"
+
+dependencies {
+    compile "org.lwjgl:lwjgl:${lwjglVersion}"
+    compile 'commons-io:commons-io:2.4'
+    compile 'org.joml:joml:1.6.6'
+    compile files("deps/jars/jassimp.jar")
+    compile files("deps/jars/PNGDecoder.jar")
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+distributions {
+    main {
+        contents {
+            from("deps/natives") {
+                into ("lib/natives")
+            }
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes('Main-Class': 'com.kevin.Main',
+                "Class-Path": configurations.runtime.collect { it.getName() }.join(' '))
+    }
+}
+

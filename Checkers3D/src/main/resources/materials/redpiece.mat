@@ -1,0 +1,4 @@
+DiffuseShading
+redchecktex.png
+float shininess = 1
+vec3 specColor = 1, 1, 1

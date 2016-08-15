@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: commons-io:commons-io:2.4">
+    <archive path="C:/Users/532259/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
+  </library>
+  <library name="Gradle: org.joml:joml:1.6.6">
+    <archive path="C:/Users/532259/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.6.6/8c42c722fb394cf44adbba2ce9dbf1467f4580a3/joml-1.6.6.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl:3.0.0b">
+    <archive path="C:/Users/532259/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.0.0b/e5753ecf8c2232243c4ddae0a901acf9cb7f5f57/lwjgl-3.0.0b.jar" />
+  </library>
+</eclipse-userlibraries>
+

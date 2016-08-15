@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/build/classes/test"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+		<excludeFolder url="file://$MODULE_DIR$/build"/>
+	</contentEntry>
+	<lib name="jassimp.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/deps/jars/jassimp.jar!/"/>
+	</lib>
+	<lib name="PNGDecoder.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/deps/jars/PNGDecoder.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Gradle: org.lwjgl:lwjgl:3.0.0b" value="project"/>
+		<level name="Gradle: commons-io:commons-io:2.4" value="project"/>
+		<level name="Gradle: org.joml:joml:1.6.6" value="project"/>
+	</levels>
+</component>

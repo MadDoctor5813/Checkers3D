@@ -1,0 +1,4 @@
+DiffuseShading
+boardtex.png
+float shininess = 2
+vec3 specColor = 1, 1, 1
